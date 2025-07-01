@@ -1,0 +1,17 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; line-height: 1.6; }
+header { background: #333; color: #fff; padding: 1rem; }
+.navbar { display: flex; justify-content: space-between; align-items: center; }
+.nav-links { list-style: none; display: flex; }
+.nav-links li { margin-left: 1rem; }
+.nav-links a { color: #fff; text-decoration: none; }
+.hero { padding: 4rem; text-align: center; background: #f4f4f4; }
+.hero .cta-button { display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: #333; color: #fff; text-decoration: none; }
+section { padding: 2rem; }
+.service-items { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+.testimonials { display: grid; gap: 1rem; }
+.contact form { display: flex; flex-direction: column; gap: 0.5rem; max-width: 400px; margin: auto; }
+.contact input, .contact textarea { padding: 0.5rem; }
+.contact button { padding: 0.5rem; background: #333; color: #fff; border: none; }
+.socials { text-align: center; margin-top: 1rem; }
+.socials a { margin: 0 0.5rem; text-decoration: none; color: #333; }
